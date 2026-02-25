@@ -1,7 +1,7 @@
 """
 ╔══════════════════════════════════════════════════════════════╗
-║      GENERADOR DE TRABAJOS PRÁCTICOS — DERECHO CIVIL         ║
-║      Streamlit App · Valentina Fernanda Elgart · UBA         ║
+║      GENERADOR DE TRABAJOS PRÁCTICOS — DERECHO               ║
+║      Streamlit App · UBA                                     ║
 ╚══════════════════════════════════════════════════════════════╝
 
 Instalación (una sola vez):
@@ -357,10 +357,10 @@ init_state()
 with st.sidebar:
     st.markdown("## ⚖️ Datos del TP")
     st.markdown("---")
-    titulo      = st.text_input("Título", value="Elementos de Derecho Civil")
-    subtitulo   = st.text_input("Subtítulo", value="Vicios de la Voluntad y de los Actos Jurídicos")
-    materia     = st.text_input("Materia", value="Derecho Civil — Parte General")
-    alumna      = st.text_input("Alumno/a", value="Valentina Fernanda Elgart")
+    titulo      = st.text_input("Título", value="...")
+    subtitulo   = st.text_input("Subtítulo", value="...")
+    materia     = st.text_input("Materia", value="...")
+    alumna      = st.text_input("Alumno/a", value="...")
     universidad = st.text_input("Universidad", value="Universidad de Buenos Aires")
     facultad    = st.text_input("Facultad", value="Facultad de Derecho")
 
