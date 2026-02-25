@@ -349,21 +349,6 @@ def generar_html_tp(meta, secciones):
 #  MODO RESUMEN — PARSER DE PALABRAS CLAVE
 # ══════════════════════════════════════════════════════════════
 
-"""
-Palabras clave reconocidas (case-insensitive, con o sin espacios tras ':'):
-    TITULO:     → encabezado de sección (numeral romano automático)
-    SUBTITULO:  → h3 con borde burdeos
-    TEXTO:      → párrafo normal
-    DEF:        → cuadro summary-box con título "Definición"
-    TABLA:      → inicio de tabla; filas con | ; cierra con ---
-    EJ:         → callout ocre (ejemplo)
-    NOTA:       → callout azul (nota importante)
-    - texto     → ítem de lista no ordenada (sin palabra clave)
-    1. texto    → ítem de lista ordenada   (sin palabra clave)
-    SALTO:      → <hr class="divider">
-    (vacío)     → se ignora
-"""
-
 # Regex para detectar palabras clave al inicio de línea
 RE_KW = re.compile(
     r'^(TITULO|SUBTITULO|TEXTO|DEF|TABLA|EJ|NOTA|SALTO)\s*:\s*',
@@ -621,7 +606,7 @@ with st.sidebar:
 # ══════════════════════════════════════════════════════════════
 
 st.markdown("# ⚖️ Generador de Documentos Académicos")
-st.markdown("*Derecho Civil — Parte General · Estilo UBA*")
+st.markdown("*Espero puedas hacer uso de esta herramienta, lo hice para vos con mucho cariño*")
 st.markdown("---")
 
 tab_tp, tab_resumen = st.tabs(["📋  Trabajo Práctico", "📖  Resumen de Estudio"])
